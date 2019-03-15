@@ -1,0 +1,37 @@
+{
+  "name": "mynotificationtest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-native": "0.59.1",
+    "react-native-axios": "^0.17.1",
+    "react-native-check-box": "^2.1.7",
+    "react-native-device-info": "^0.29.1",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-ios-status-bar-padding": "^1.2.0",
+    "react-native-modal": "^9.0.0",
+    "react-native-push-notification": "^3.1.2",
+    "react-native-rename": "^2.4.1",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-table-component": "^1.2.0",
+    "react-native-vector-icons": "^6.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/runtime": "7.3.4",
+    "babel-jest": "24.5.0",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
